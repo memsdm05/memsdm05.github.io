@@ -1,0 +1,17 @@
+.monospace {
+    margin: 0pt;
+
+    font-size: 100px;
+}
+
+body {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #247BA0;
+}
+
+h1 {
+    font-family:'Futura Std Condensed Light';
+    background-color: #0A2463;
+    color: #E2E2E2;
+    text-align: center;
+}
