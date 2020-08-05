@@ -3,18 +3,48 @@
     src: url(../fonts/kayak_sans_regular.otf);
 }
 
+#sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FCA311;
+    padding-top: 20px;
+  }
+
+#sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+@media screen and (max-height: 450px) {
+    #sidenav {padding-top: 15px;}
+    #sidenav a {font-size: 18px;}
+}
+  
 body {
-    border-color: black;
-    border: 20px;
     background-color: #14213D;
 }
 
-#main-section {
+.paragraph {
+    border-radius: 7px;
+    /* background-color: #FCA311; */
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid white;
+}
 
+#main-section {
     font-family: kayak;
     color: #ffffff;
     font-size: 30px;
-    margin: 10px 30px 10px 130px;
+    margin: 10px 30px 10px 200px;
 }
 
 hr {
