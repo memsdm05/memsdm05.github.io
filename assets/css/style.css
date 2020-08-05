@@ -4,6 +4,7 @@
 }
 
 #sidenav {
+    font-family: kayak;
     height: 100%;
     width: 150px;
     position: fixed;
@@ -11,15 +12,20 @@
     top: 0;
     left: 0;
     background-color: #FCA311;
-    padding-top: 20px;
+
   }
 
 #sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 30px 8px 30px 8px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: black;
     display: block;
+}
+
+#sidenav a:hover {
+    color:black;
+    background-color: #eb9408;
 }
 
 @media screen and (max-height: 450px) {
