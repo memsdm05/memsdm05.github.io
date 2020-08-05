@@ -1,0 +1,23 @@
+@font-face {
+    font-family: kayak;
+    src: url(../fonts/kayak_sans_regular.otf);
+}
+
+body {
+    border-color: black;
+    border: 20px;
+    background-color: #14213D;
+}
+
+#main-section {
+
+    font-family: kayak;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 10px 30px 10px 130px;
+}
+
+hr {
+    background: #e5e5e5;
+    height: 25px;
+}
