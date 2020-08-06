@@ -3,6 +3,10 @@
     src: url(../fonts/kayak_sans_regular.otf);
 }
 
+a {
+    color: white;
+}
+
 #sidenav {
     font-family: kayak;
     height: 100%;
@@ -37,6 +41,12 @@ body {
     background-color: #14213D;
 }
 
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
 .paragraph {
     border-radius: 7px;
     /* background-color: #FCA311; */
@@ -55,5 +65,22 @@ body {
 
 hr {
     background: #e5e5e5;
+    border: 1;
+    /* background: #FCA311; */
     height: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+    #main-section {
+        margin: 10px 30px 10px 150px;
+    }
+
+    #sidenav {
+        width: 100px;
+    }
+
+    #sidenav a {
+        padding: 30px 7px 30px 7px;
+        font-size: 1;
+    }
+  }
